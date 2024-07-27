@@ -9,7 +9,7 @@ function generateQR(){
         setTimeout(() => {
             imgBox.classList.add("show-img");
             heading.style.display = "none";
-        }, 200);
+        }, 1000);
     } else {
         qrText.classList.add('error');
         setTimeout(() => {
